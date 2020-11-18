@@ -1,5 +1,10 @@
-# My-setup
+# My-setup 
 Build, snippets....
+
+This repository contains all the tools and settings for __competative programming__
+> BUILDS FOR SUBLIME TEXT 
+> MY SNIPPETS
+> A COMPLETETION FILE
 
 
 ## FOR WINDOWS i have not found any working build so far (18/11/2020) for my pc 
@@ -7,10 +12,8 @@ Build, snippets....
 __solution__  use default builds (!! PEACE !!)
 
 
-
-
-
 ## FOR LINUX (ubantu my distro) 
-> Open is full of perks. there is ocean full off build on internet  
+> Open source has its own perks. there is ocean full off build on internet.
+my own personal reference present in the build file. 
 
 
