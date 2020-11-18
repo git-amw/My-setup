@@ -1,5 +1,5 @@
 # My-setup 
-Build, snippets....
+Build, snippets....etc.
 
 This repository contains all the tools and settings for __competative programming__
 > BUILDS FOR SUBLIME TEXT 
