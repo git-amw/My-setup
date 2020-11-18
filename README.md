@@ -23,5 +23,5 @@ my own personal reference present in the build file.
 - __mnq__     :- minimum priority queue
 - __pq__      :- maximum priority queue
 - __kick__    :- Google and fb style test cases
-- __algo__    :- some raidly used algo temp..
+- __algo__    :- some frequently used algo temp..
 - __acomp__   :- completion file 
