@@ -1,0 +1,149 @@
+
+*Templete
+
+//---------GRAPH-----------------\\
+
+  vector<int> G[n+1];
+    for(int i = 0; i < m; i++){
+        int x, y; cin >> x >> y;
+        G[x].eb(y);
+        G[y].eb(x);
+    }
+
+
+//--------------DFS-------------------------\\
+
+vector<vector<int>> adj;
+int n;
+bool vis[n];
+
+void dfs(int vertex){
+	 vis[vertex] = true;
+	 for(int u : G[vertex]){
+	      if(!vis[u])
+	         dfs(u);
+	 }
+}
+
+___ :: topological sort :: ___
+
+ with dfs 
+
+     vector<int> ans //   add push to ans in dfs
+
+  void topso(){
+       vis.assign(n, false);
+       ans.clear();
+       for(int i = 1; i <= n; i++){
+            if(!vis[i]){
+                 dfs(i);
+            }
+       }
+       reverse(all(ans));
+  }
+
+  khan's algo for DAG's could be used if,  question requires topsort with Cycle detection (indegree)
+
+  --> calc indegree of all nodes and store the node with 0 degree in queue  (pq)
+
+  --> start loop with the current element in the queue (like BFS)
+  --> change the indegree of the nodes and enqueue the node with indegree 0....(talk is cheap show me the code)
+
+  bool topso(){
+
+     for(int i = 1; i <= n; i++){
+         for(int a : G[i]){
+              id[a]++;
+         } 
+     }
+     for(int i = 1; i <= n; i++){
+          if(id[i] == 0) mq.push(i);
+     }
+     int indx = 0;
+     while(!mq.empty()){
+         int u = mq.top();
+         ans[indx++] = u;
+         mq.pop();
+         for(int v : G[u]){
+              id[v]--;
+              if(id[v] == 0) mq.push(v);
+         }
+     }
+     if(indx != n) return false; //  ~for cycle 
+   return true;
+} 
+
+
+//-------------BFS--------------------------\\
+
+vector<vector<int>> adj;
+int n, s;  
+
+queue<int> q;
+bool vis[N];
+vector<int> dis(N), parn(N);
+void BFS(){
+
+     q.push(s);
+     vis[s] = 1;
+     parn[s] = -1;
+     while(!q.empty()){
+            int v = q.front();
+            q.pop();
+            for(auto u : G[v]){
+                  if(!vis[u]){
+                       vis[u] = 1;
+                       q.push(u);
+                       dis[u] = dis[v] + 1;
+                       parn[u] = v;
+                  }
+            }
+      } 
+}
+
+
+--------------------fast / exponentation---------------------------
+
+template<typename T> T fast(T a,T b, long long m){T ans=1; while(b>0){ if(b%2==1) ans=(ans*a)%m; b/=2; a=(a*a)%m; } return ans%m; }
+
+__---iterative :-
+
+int fast(int x, int n){
+	int res = 1;
+	while(n){
+
+	       if(n&1){
+	           res *= x;
+	       }
+	       x *= x;
+	       n /= 2;
+	}
+	return res;
+}
+
+----------------kaden's with & without boundaries----------
+
+_WITH_OUT :- 
+    
+    for(int i = 0; i < n; i++){
+          curs = max(a[i], curs + a[i]);
+          maxs = max(maxs, curs);
+    }
+
+_WITH_ :-
+
+
+ int mxs = a[0], l = 0, r = 0, sum = 0, mpos = -1;
+
+ for(int rep = 0; rep < n; rep++){
+       sum += a[rep];
+       if(sum > mxs){
+            mxs = sum;
+            l = mpos + 1;
+            r = rep;
+       }
+       if(sum < 0){
+            sum = 0;
+            mpos = rep;
+       }
+ }
