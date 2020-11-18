@@ -19,9 +19,9 @@ my own personal reference present in the build file.
 ## FILES DESCRIPTION
 - __Graph__  :- Inilitization and input
 - __test__   :- Normal codeforces style test case
--__segtree__ :- segment tree
--__mnq__     :- minimum priority queue
--__pq__      :- maximum priority queue
--__kick__    :- Google and fb style test cases
--__algo__    :- some raidly used algo temp..
--__acomp__   :- completion file 
+- __segtree__ :- segment tree
+- __mnq__     :- minimum priority queue
+- __pq__      :- maximum priority queue
+- __kick__    :- Google and fb style test cases
+- __algo__    :- some raidly used algo temp..
+- __acomp__   :- completion file 
