@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+ vector<int> G[n+1];
+ for(int i = 0; i < m; i++){
+      int x, y; cin >> x >> y;
+      G[x].eb(y);
+      G[y].eb(x);
+ }
+]]></content>
+	<tabTrigger>graph</tabTrigger>
+</snippet>

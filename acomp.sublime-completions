@@ -1,0 +1,32 @@
+{
+    "scope": "source.c++, meta.block.c++, meta.function.c++",
+
+    "completions":
+    [
+        "vector<int> ",
+        "vector<pair<int,int>> ",
+        "vector<string> ",
+        "vector<char> ",
+        "vector<bool> ",
+        "set<int> ",
+        "set<pair<int,int>> ",
+        "set<string> ",
+        "set<char> ",
+        "set<bool> ",
+        "map<int,int> ",
+        "map<string,int> ",
+        "map<int,string> ",
+        "unordered_map<int, int> ",
+        "unordered_set<int, int> ",
+        "first",
+        "second",
+        "make_pair",
+        "make_tuple",
+        "push_back",
+        "emplace_back",
+        "size()",
+        "cout.precision(8); cout<<fixed; ",
+        "cin >>", 
+    
+    ]
+}

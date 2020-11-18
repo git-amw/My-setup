@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[
+priority_queue<int, vector<int>, greater<int>> 
+]]></content>
+	<tabTrigger>mnpq</tabTrigger>
+</snippet>

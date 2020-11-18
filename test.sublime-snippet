@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+int T; cin >> T;
+while(T--){
+	
+      
+
+}
+]]></content>
+		<tabTrigger>T</tabTrigger>
+</snippet>

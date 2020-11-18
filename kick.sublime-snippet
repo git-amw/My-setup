@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+int test; cin >> test;
+for(int tc = 1; tc <= test; tc++){
+	cout << "Case #" << tc << ":" << ans;
+	
+}
+]]></content>
+	<tabTrigger>KT</tabTrigger>
+</snippet>

@@ -1,0 +1,65 @@
+<snippet>
+	<content><![CDATA[
+ struct segtree{
+     
+       int size;
+       vector<ll> sums;
+
+       void init(int n){
+            size = 1;
+            while(size < n) size *= 2;
+            sums.assign(2*size, 0LL);
+       }
+
+       void build(vector<int> &a, int x, int lx, int rx){
+            if(rx - lx == 1){
+                  if(lx < SZ(a)){
+                      sums[x] = a[lx];
+                  }
+               return;
+            }
+            int m = lx + (rx - lx) / 2;
+            build(a, 2*x + 1, lx, m);
+            build(a, 2*x + 2, m, rx);
+            sums[x] = sums[2*x + 1] + sums[2*x + 2];
+        }
+
+        void update(int pos, int val, int x, int lx, int rx){
+            if(rx - lx == 1){
+                sums[x] = val;
+              return;
+            }
+            int m = lx + (rx - lx) / 2;
+            if(pos < m){
+                update(pos, val, 2*x + 1, lx, m);
+            }
+            else{
+                update(pos, val, 2*x + 2, m, rx);
+            }
+            sums[x] = sums[2*x + 1] + sums[2*x + 2];
+        } 
+     
+        ll calc(int l, int r, int x, int lx, int rx){
+            if(lx >= r || rx <= l) return 0;
+            else if(l <= lx && rx <= r) return sums[x];
+
+            int m = lx + (rx - lx) / 2;
+            ll s1 = calc(l, r, 2*x + 1, lx, m);
+            ll s2 = calc(l, r, 2*x + 2, m, rx);
+            return s1 + s2;
+        }
+
+        void build(vector<int> &a){
+            build(a, 0, 0, size);
+        }
+        void update(int pos, int val){     // 0 <= pos < n
+            update(pos, val, 0, 0, size);
+        }
+        ll calc(int l, int r){              //  0 <= l, r <= n
+            return calc(l, r, 0, 0, size);
+        }
+
+};
+]]></content>
+	<tabTrigger>segt</tabTrigger>
+</snippet>

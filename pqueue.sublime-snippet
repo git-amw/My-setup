@@ -1,0 +1,6 @@
+<snippet>
+	<content><![CDATA[
+     priority_queue<int> 
+]]></content>
+	<tabTrigger>pq</tabTrigger>
+</snippet>
