@@ -1,0 +1,25 @@
+// MACROS 
+
+
+#pragma GCC optimize("Ofast")
+#pragma GCC target("avx,avx2,fma")
+#include  "bits/stdc++.h"
+using namespace std;
+#define I_AM_SPEED  ios::sync_with_stdio(0); cin.tie(0); cout.tie(0); 
+#define printclock  cerr <<"Time : "<<(double)clock()/(double)CLOCKS_PER_SEC<<" sec\n";
+#define mp(a , b)   make_pair(a , b)
+#define pb          push_back
+#define eb          emplace_back
+#define SZ(n)       ((int)(n).size())
+#define all(n)      (n).begin(), (n).end()
+#define MXE(a)      *max_element(all(a))
+#define MNE(a)      *min_element(all(a))  
+#define anal           '\n'
+#define mod         1000000007  
+#define fst         first
+#define sec         second
+#define pr(n)       cerr << n  << " ";
+#define pfor(a)     for(auto (w) : (a)) pr(w)
+//const double PI = acos(-1.0);
+typedef long long ll;
+typedef unsigned long long ull;
