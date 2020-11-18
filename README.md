@@ -25,3 +25,4 @@ my own personal reference present in the build file.
 - __kick__    :- Google and fb style test cases
 - __algo__    :- some frequently used algo temp..
 - __acomp__   :- completion file 
+- __MACRO__   :- cpp macros
