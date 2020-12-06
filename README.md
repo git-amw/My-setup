@@ -8,7 +8,7 @@ This repository contains all the tools and settings for __competative programmin
 
 
 ## FOR WINDOWS 
-> check build file
+> check window_build file
 
 ## FOR LINUX (ubantu my distro) 
 > Open source has its own perks. there is ocean full off build on internet.
