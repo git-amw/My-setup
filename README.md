@@ -8,19 +8,19 @@ This repository contains all the tools and settings for __competative programmin
 
 
 ## FOR WINDOWS 
-> check window_build file
+> check [window_build](https://github.com/git-amw/My-setup/blob/main/windows_build) file
 
 ## FOR LINUX (ubantu my distro) 
 > Open source has its own perks. there is ocean full off build on internet.
 my own personal reference present in the build file. 
 
 ## REPOSITORY FILES DESCRIPTION (whatever you need is present in that file whose name is....)
-- __Graph__  :- Inilitization and input
-- __test__   :- Normal codeforces style test case
-- __segtree__ :- segment tree
-- __mnq__     :- minimum priority queue
-- __pq__      :- maximum priority queue
-- __kick__    :- Google and fb style test cases
-- __algo__    :- some frequently used algo temp..
-- __acomp__   :- completion file 
-- __MACRO__   :- cpp macros
+- __[Graph](https://github.com/git-amw/My-setup/blob/main/Graph.sublime-snippet)__  :- Inilitization and input
+- __[test](https://github.com/git-amw/My-setup/blob/main/test.sublime-snippet)__   :- Normal codeforces style test case
+- __[segtree](https://github.com/git-amw/My-setup/blob/main/segment.sublime-snippet)__ :- segment tree
+- __[mnq](https://github.com/git-amw/My-setup/blob/main/mnq.sublime-snippet)__     :- minimum priority queue
+- __[pq](https://github.com/git-amw/My-setup/blob/main/pqueue.sublime-snippet)__      :- maximum priority queue
+- __[kick](https://github.com/git-amw/My-setup/blob/main/kick.sublime-snippet)__    :- Google and fb style test cases
+- __[algo](https://github.com/git-amw/My-setup/blob/main/algo_templates)__    :- some frequently used algo temp..
+- __[acomp](https://github.com/git-amw/My-setup/blob/main/acomp.sublime-completions)__   :- completion file 
+- __[MACRO](https://github.com/git-amw/My-setup/blob/main/macro.txt)__   :- cpp macros
