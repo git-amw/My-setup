@@ -1,10 +1,11 @@
 {
-    "scope": "source.c++, meta.block.c++, meta.function.c++",
+    "scope": "source.c++, meta.block.c++, meta.function.c++, source.cpp",
 
     "completions":
-    [
+    [   
         "vector<int> ",
         "vector<pair<int,int>> ",
+        "tuple<int, int, int>",
         "vector<string> ",
         "vector<char> ",
         "vector<bool> ",
@@ -27,6 +28,8 @@
         "size()",
         "cout.precision(8); cout<<fixed; ",
         "cin >>", 
+        "freopen(stdin);",
+        "freopen(stdout);",
     
     ]
 }
