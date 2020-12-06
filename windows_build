@@ -1,0 +1,7 @@
+**SAVE it as <name>.sublime-build**
+
+{
+    "cmd": ["g++.exe","-Ofast", "-std=c++14", "-o", "$file_base_name", "$file", "&&", "start", "cmd", "/c", "$file_base_name & echo. & echo. & pause"],
+    "shell": true,
+    "selector": "source.c++"
+}
