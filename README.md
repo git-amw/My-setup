@@ -9,6 +9,9 @@ This repository contains all the tools and settings for __competative programmin
 
 ## FOR WINDOWS 
 > check [window_build](https://github.com/git-amw/My-setup/blob/main/windows_build) file
+- In this build i/o is done through console
+- You can easily redirect them into files
+- It already has a flag for local preprocessor **(-DLOCAL)**
 
 ## FOR LINUX (ubantu my distro) 
 > Open source has its own perks. there is ocean full off build on internet.
