@@ -13,8 +13,8 @@ This repository contains all the tools and settings for __competative programmin
 - You can easily redirect them into files
 - It already has a flag for local preprocessor **(-DLOCAL)**
 
-## FOR LINUX (ubantu my distro) 
-> Open source has its own perks. there is ocean full off build on internet.
+## FOR LINUX (ubantu) 
+> Open source has its own perks. There is ocean full off builds on internet.
 my own personal reference present in the build file. 
 
 ## REPOSITORY FILES DESCRIPTION (whatever you need is present in that file whose name is....)
