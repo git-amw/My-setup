@@ -4,7 +4,7 @@ Build, snippets....etc.
 This repository contains all the tools and settings for __competative programming__
 > BUILDS FOR SUBLIME TEXT 
 > MY SNIPPETS
-> A COMPLETETION FILE
+> And a COMPLETETION FILE
 
 
 ## FOR WINDOWS 
