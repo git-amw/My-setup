@@ -1,7 +1,8 @@
 **SAVE it as <name>.sublime-build**
 
 {
-    "cmd": ["g++.exe","-Ofast","-DLOCAL","-std=c++14", "-o", "$file_base_name", "$file", "&&", "start", "cmd", "/c", "$file_base_name & echo. & echo. & pause"],
+   "cmd": ["g++.exe","-DLOCAL","-std=c++14", "-O2", "-Wall", "-Wextra","-Wshadow","-Wconversion", "-Wfloat-equal","-Wduplicated-cond","-Wlogical-op", "-D_GLIBCXX_DEBUG", "-D_GLIBCXX_DEBUG_PEDANTIC",
+   "-o",  "$file_base_name", "$file", "&&", "start", "cmd", "/c", "$file_base_name & echo. & echo. & pause"],
     "shell": true,
     "selector": "source.c++"
 }
