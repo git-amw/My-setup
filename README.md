@@ -1,7 +1,7 @@
 # My-setup 
 Build, snippets....etc.
 
-This repository contains all the tools and settings for __competative programming__
+This repository contains all tools and settings for __competative programming__
 > BUILDS FOR SUBLIME TEXT 
 > MY SNIPPETS
 > And a COMPLETETION FILE
@@ -14,8 +14,7 @@ This repository contains all the tools and settings for __competative programmin
 - It already has a flag for local preprocessor **(-DLOCAL)**
 
 ## FOR LINUX (ubantu) 
-> Open source has its own perks. There is ocean full off builds on internet.
-my own personal reference present in the build file. 
+> 
 
 ## REPOSITORY FILES DESCRIPTION (whatever you need is present in that file whose name is....)
 - __[Graph](https://github.com/git-amw/My-setup/blob/main/Graph.sublime-snippet)__  :- Inilitization and input
