@@ -1,22 +1,19 @@
-# My-setup 
-Build, snippets....etc.
-
-This repository contains all tools and settings for __competative programming__
-> BUILDS FOR SUBLIME TEXT 
-> MY SNIPPETS
-> And a COMPLETETION FILE
+# <img src="https://img.icons8.com/fluency/48/000000/sublime-text.png"/> Guide and files to setup sublime for CP
 
 
-## FOR WINDOWS 
-> check [window_build](https://github.com/git-amw/My-setup/blob/main/windows_build) file
+# <img src="https://img.icons8.com/bubbles/50/000000/windows-10.png"/> FOR WINDOWS 
+> #  <img src="https://img.icons8.com/ios/50/4a90e2/download.png"/> Download [window_build file](https://github.com/git-amw/My-setup/blob/main/windows_build) file
+- ## paste it, on this location
+-  #  C:\Users\YourNameHere\AppData\Roaming\Sublime Text 3\Packages folde
+-  Rename it.
 - In this build i/o is done through console
 - You can easily redirect them into files
 - It already has a flag for local preprocessor **(-DLOCAL)**
 
 ## FOR LINUX (ubantu) 
-> 
+> ......
 
-## REPOSITORY FILES DESCRIPTION (whatever you need is present in that file whose name is....)
+## <img src="https://img.icons8.com/ios/50/fa314a/gear.png"/> REPOSITORY FILES DESCRIPTION (whatever you need is present in that file whose name is....)
 - __[Graph](https://github.com/git-amw/My-setup/blob/main/Graph.sublime-snippet)__  :- Inilitization and input
 - __[test](https://github.com/git-amw/My-setup/blob/main/test.sublime-snippet)__   :- Normal codeforces style test case
 - __[segtree](https://github.com/git-amw/My-setup/blob/main/segment.sublime-snippet)__ :- segment tree
