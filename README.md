@@ -9,6 +9,7 @@
 - In this build i/o is done through console
 - You can easily redirect them into files
 - It already has a flag for local preprocessor **(-DLOCAL)**
+### Cppfastolympic coding plugin
 
 ## FOR LINUX (ubantu) 
 > ......
