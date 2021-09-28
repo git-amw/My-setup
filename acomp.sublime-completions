@@ -3,6 +3,7 @@
 
     "completions":
     [   
+         "long long",
         "vector<int> ",
         "vector<pair<int,int>> ",
         "tuple<int, int, int>",
@@ -28,8 +29,7 @@
         "size()",
         "cout.precision(8); cout<<fixed; ",
         "cin >>", 
-        "freopen(stdin);",
-        "freopen(stdout);",
+        
     
     ]
 }
