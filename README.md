@@ -13,7 +13,9 @@
 
 ## FOR LINUX (ubantu) 
 > Install g++, using build-essential command
-> .....
+> edit .bashrc file and give reference of .bash_profile file (it include custome commands for RUN and COMPILATION )
+>  install guake termial for fast access of termial
+>  .......................................
 
 ## <img src="https://img.icons8.com/ios/50/fa314a/gear.png"/> REPOSITORY FILES DESCRIPTION (whatever you need is present in that file whose name is....)
 ## Download and paste these file too on the above location.
