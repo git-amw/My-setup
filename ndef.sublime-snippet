@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+#ifndef LOCAL
+  freopen(${1:}$0,"r",stdin);
+  freopen(${2:}$0,"w",stdout);
+#endif
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>ndef</tabTrigger> 
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
